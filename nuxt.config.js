@@ -1,3 +1,6 @@
+/*
+ * @Author: MirrorXu xupl@ilingdai.com
+ */
 
 module.exports = {
   mode: 'universal',
@@ -23,7 +26,10 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/reset.css',
+    'element-ui/lib/theme-chalk/index.css',
+    // 项目提供的css
+    '@/assets/css/main.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -49,6 +55,7 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    cache: false,
     extend (config, ctx) {
     }
   }

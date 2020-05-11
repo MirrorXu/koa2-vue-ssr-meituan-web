@@ -18,6 +18,8 @@
   },
   "devDependencies": {
     "less-loader": "^6.1.0",
-    "nodemon": "^1.18.9"
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^8.0.2"
   }
 }
