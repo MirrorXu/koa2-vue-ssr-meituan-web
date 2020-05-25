@@ -1,8 +1,8 @@
-import koa from ('koa')
+const Koa = require('koa')
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
 
-import mongoose from 'mongoose'
+const mongoose = require('mongoose')
 import bodyParser from 'koa-bodyparser'
 import session from 'koa-generic-session'
 import Redis from 'koa-redis'
