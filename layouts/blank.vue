@@ -3,8 +3,8 @@
 </style>
 
 <template>
-  <div>
-    <h1>空白</h1>
+  <div class="layout-blank">
+    <!-- <h1>空白模板</h1> -->
     <nuxt></nuxt>
   </div>
 </template>

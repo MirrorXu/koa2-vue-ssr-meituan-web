@@ -1,7 +1,3 @@
-/*
- * @Author: MirrorXu xupl@ilingdai.com
- */
-
 module.exports = {
   mode: 'universal',
   /*
