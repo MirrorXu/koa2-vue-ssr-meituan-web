@@ -21,7 +21,7 @@
     "koa-redis": "^4.0.1",
     "koa-router": "^8.0.8",
     "mongoose": "^5.9.15",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "nuxt": "^2.0.0",
     "passport-local": "^1.0.0"
   },
